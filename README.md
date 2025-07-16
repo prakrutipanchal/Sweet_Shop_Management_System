@@ -1,4 +1,4 @@
-﻿Sweet Shop Management System
+﻿## Sweet Shop Management System
 
 A Node.js inventory management system for a sweet shop, built with Test-Driven Development (TDD) and clean architecture principles.
 
