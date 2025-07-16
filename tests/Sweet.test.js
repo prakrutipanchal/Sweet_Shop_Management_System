@@ -1,4 +1,4 @@
-import Sweet from "../src/models/Sweet.js";
+const Sweet = require('../src/models/Sweet');
 
 describe('Sweet', () => {
   test('should create a sweet with all required properties', () => {
