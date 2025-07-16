@@ -34,40 +34,23 @@ A Node.js inventory management system for a sweet shop, built with Test-Driven D
 ## Sample Output
 
    PASS  tests/Sweet.test.js
+   
    PASS  tests/Inventory.test.js
+
   
-  Test Suites: 2 passed, 2 total
-  Tests:       14 passed, 14 total
+   Test Suites: 2 passed, 2 total
+   
+   Tests:       14 passed, 14 total
 
 ## Usage Examples
 
 1. Initialize Inventory:
    
-  const Inventory = require('./src/models/Inventory');
-  const Sweet = require('./src/models/Sweet');
-  
-  const inventory = new Inventory();
-  const chocolate = new Sweet(1, 'Chocolate Bar', 'chocolate', 1.99, 50);
+     <img width="720" height="177" alt="image" src="https://github.com/user-attachments/assets/a2294b1b-5085-4bfa-86d4-08f60f88bd21" />
+
 
 2. Core Operations:
    
-   // Add sweet
+      <img width="509" height="332" alt="image" src="https://github.com/user-attachments/assets/4c0c3e80-c520-4292-acac-27596e990a86" />
+
    
-  inventory.addSweet(chocolate);
-  
-  // Purchase 10 units
-  
-  inventory.purchaseSweet(1, 10); 
-  
-  // Restock
-  
-  inventory.restockSweet(1, 20);
-  
-  // Search
-  
-  const results = inventory.searchSweets({ 
-    category: 'chocolate', 
-    maxPrice: 2.00 
-  });
-    
-       
