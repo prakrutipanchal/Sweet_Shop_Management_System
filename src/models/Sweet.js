@@ -13,19 +13,20 @@ class Sweet
   }
 
   updateDetails({ name, category, price, quantity }) 
-  {
+  {  
     if (name) this.name = name;
     if (category) this.category = category;
-
+    
     if (price !== undefined) 
     {
       if (price < 0) throw new Error('Price cannot be negative');
-      this.price = price;
+      this.price = price;  
     }
-
-    if (quantity !== undefined) {
+    
+    if (quantity !== undefined) 
+    {
       if (quantity < 0) throw new Error('Quantity cannot be negative');
-      this.quantity = quantity;
+      this.quantity = quantity; 
     }
   }
 }
